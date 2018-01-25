@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./lib/app.js",
-    "compile": "babel -d lib/ src/",
-    "run": "babel -d lib/ src/ && node lib/app"
+    "start": "nodemon ./src/app.js"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -36,7 +34,7 @@
     "babel-runtime": "^6.6.1",
     "cors": "^2.8.1",
     "express": "^4.14.0",
-    "http": "0.0.0",
+    "nodemon": "^1.14.11",
     "path": "^0.12.7",
     "socket.io": "^1.4.8"
   },
